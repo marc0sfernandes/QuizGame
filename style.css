@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+:root{
+    --vermelho: #960200;
+    --roxo:#241E4E;
+    --amarelo: #FFD046;
+    --cinza-escuro: #857885;
+    --cinza-claro: #87A0B2;
+}
+body{
+    font-family: 'Lato', sans-serif;
+    background: rgb(1,0,36);
+    background: linear-gradient(52deg, rgba(1,0,36,1) 0%, rgba(0,142,255,0.5606617647058824) 100%);
+    height: 98vh;
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    margin:9px 2%;
+}
+
+.display{
+    display: flex;
+}
+
+.alinhar_botao{
+    margin-top: 50px;
+}
+
+#numero_de_questoes, select, button{
+    background-color: white;
+    border:none;
+    height:3vh;
+    font-family: 'Lato', sans-serif;
+}
+
